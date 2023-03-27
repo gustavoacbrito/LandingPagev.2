@@ -1,0 +1,97 @@
+/* Cores da Marca  
+-vermelho vivo #991914
+-vermelho bordô #3B0F11
+-Cinza #706F6F
+*/
+
+
+@font-face {
+    font-family: 'Fortifiquemedium' ;
+    src: url('/Font/gotham-medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    
+       
+}
+@font-face {
+    font-family: 'Fortifiquelight' ;
+    src: url('/Font/gotham-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'icones' ;
+    src: url(../Font/IconsSocialMedia.ttf) format('truetype');
+ 
+}
+
+main{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.font-fortifique-carousel{
+    font-family: 'Fortifiquelight', Arial Helvetica, sans-serif;
+    color:#333333;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.font-fortifique-navbar{
+    font-family: 'Fortifiquemedium', Arial Helvetica, sans-serif;
+    color:#706F6F;
+    
+    
+}
+
+.nav-img-logo{
+    width: 200px
+    
+}
+
+.img_carousel{
+    object-fit: cover;
+    height: 70vh;
+    
+}
+
+
+.img-titles{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.cards-img{
+    width: 70px;
+    height: 70px;
+}
+.fonts-paragraph{
+    font-family: 'Fortifiquelight', Arial Helvetica, sans-serif;
+    color: #000000;
+    text-align: justify;
+}
+.fonts-title{
+    font-family: 'Fortifiquemedium', Arial Helvetica, sans-serif;
+    color:#706F6F;
+    font-size: 2rem ;
+}
+
+.img-ritos{
+    width: 250%;
+}
+
+@media screen and (max-width:940px) {
+    .img_carousel{
+        height: 30vh;
+        object-fit: cover;
+        
+    }
+    .titles{
+        font-size: 1.2rem;
+    }
+
+    main{
+        width: 95vw;
+        margin: 0 auto;
+    }
+}
