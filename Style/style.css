@@ -25,10 +25,19 @@
  
 }
 
-main{
+html{
     width: 80vw;
     margin: 0 auto;
+    background-image: url(/LandingPagev.2/Assets/pexels-scott-webb-2117937.jpg);
+    background-size: cover;
+   
+    background-attachment: fixed;
 }
+body{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.450), -10px -10px 20px rgba(0, 0, 0, 0.450);
+}
+
+
 
 .font-fortifique-carousel{
     font-family: 'Fortifiquelight', Arial Helvetica, sans-serif;
@@ -48,12 +57,23 @@ main{
     width: 200px
     
 }
+.nav-width{
+    width:80vw;
+    margin:auto;
+}
 
 .img_carousel{
     object-fit: cover;
     height: 70vh;
     
 }
+
+.contato-navbar::before{
+    content:"n";
+    font-family: icones;
+    font-size: 1em;
+}
+
 
 
 .img-titles{
@@ -62,8 +82,13 @@ main{
 }
 
 .cards-img{
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+
+.cards-border{
+    border-color: #991914;
 }
 .fonts-paragraph{
     font-family: 'Fortifiquelight', Arial Helvetica, sans-serif;
@@ -75,23 +100,42 @@ main{
     color:#706F6F;
     font-size: 2rem ;
 }
+.img-carta-width{
+    width: 40%;
+}
+
 
 .img-ritos{
     width: 100%;
 }
 
 @media screen and (max-width:940px) {
+    .nav-width{
+        width:100vw;
+        margin:auto;
+    }
     .img_carousel{
         height: 30vh;
         object-fit: cover;
         
     }
-    .titles{
-        font-size: 1.2rem;
+   
+    .fonts-title{
+        font-family: 'Fortifiquemedium', Arial Helvetica, sans-serif;
+        color:#706F6F;
+        font-size: 1.3rem ;
     }
 
+    html{
+        width: 100vw;
+        margin: 0 auto;
+    }
     main{
         width: 95vw;
         margin: 0 auto;
+
     }
 }
+
+
+
