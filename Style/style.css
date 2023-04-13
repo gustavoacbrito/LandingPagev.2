@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'Fortifiquemedium' ;
-    src: url('/Font/gotham-medium.otf') format('opentype');
+    src: url('/LandingPagev.2/Font/gotham-medium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     
@@ -15,7 +15,7 @@
 }
 @font-face {
     font-family: 'Fortifiquelight' ;
-    src: url('/Font/gotham-light.ttf') format('truetype');
+    src: url('/LandingPagev.2/Font/gotham-light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,7 +28,7 @@
 html{
     width: 80vw;
     margin: 0 auto;
-    background-image: url(/LandingPagev.2/Assets/pexels-scott-webb-2117937.jpg);
+    background-image: url(/LandingPagev.2/assets/pexels-scott-webb-2117937.jpg);
     background-size: cover;
    
     background-attachment: fixed;
@@ -49,6 +49,7 @@ body{
 .font-fortifique-navbar{
     font-family: 'Fortifiquemedium', Arial Helvetica, sans-serif;
     color:#706F6F;
+    font-size: 1.5em;
     
     
 }
@@ -61,19 +62,19 @@ body{
     width:80vw;
     margin:auto;
 }
-
+.contato-navbar::before{
+    content:"n";
+    font-family: icones;
+    font-size: 1.5rem;
+}
+#carousel-section{
+    margin-top: 85.33px;
+}
 .img_carousel{
     object-fit: cover;
     height: 70vh;
     
 }
-
-.contato-navbar::before{
-    content:"n";
-    font-family: icones;
-    font-size: 1em;
-}
-
 
 
 .img-titles{
@@ -94,6 +95,7 @@ body{
     font-family: 'Fortifiquelight', Arial Helvetica, sans-serif;
     color: #000000;
     text-align: justify;
+    font-size: 1.2rem;
 }
 .fonts-title{
     font-family: 'Fortifiquemedium', Arial Helvetica, sans-serif;
@@ -139,3 +141,77 @@ body{
 
 
 
+/*-------------*/
+/* Cores da Marca  
+-vermelho vivo #991914
+-vermelho bordô #3B0F11
+-Cinza #706F6F
+*/
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+.content {
+    height: 70vh; }
+  
+  .footer-20192 {
+    position: relative;
+    color: #000000;
+    padding: 7rem 0;
+    background-color: #c2b7b7; }
+    .footer-20192 .container {
+      position: relative; }
+    .footer-20192 h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 0;
+      line-height: 1.5; }
+    .footer-20192 .links li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+      display: block; }
+      .footer-20192 .links li a {
+        color: #000000; }
+        .footer-20192 .links li a:hover {
+          color: #000000; }
+    .footer-20192 .social li {
+      display: inline-block;
+      position: relative; }
+      .footer-20192 .social li a {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        background-color: #3B0F11;
+        color: #000000; }
+        .footer-20192 .social li a > span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+    .footer-20192 .footer-logo {
+      color: #000000;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: .1rem; }
+    .footer-20192 .copyright {
+      color: #000000; }
+    .footer-20192 .cta {
+      -webkit-box-shadow: -20px -20px 0 0 #706f6f7a;
+      box-shadow: -20px -20px 0 0 #706f6f7a;
+      padding: 20px;
+      background-color: #3B0F11;
+      top: -150px;
+      position: relative; }
+      .footer-20192 .cta h2, .footer-20192 .cta h3 {
+        line-height: 1.5; }
+      .footer-20192 .cta h3 {
+        font-size: 20px; }
+  
